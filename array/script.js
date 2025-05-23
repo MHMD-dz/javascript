@@ -30,3 +30,19 @@ console.log(names);
 // slice (start, end) // copy
 let newNames = names.slice(2, 5); // copy from index 2 to index 5
 console.log(newNames);
+
+// search
+console.log(names.indexOf('asmaa')); // return index of asmaa
+console.log(names.indexOf('asmaa', 2)); // return index of asmaa start searching from index 2
+console.log(names.lastIndexOf('asmaa')); // return last index of asmaa
+console.log(names.includes('asmaa')); // return true or false
+console.log(names.includes('asmaa', 2)); // return true or false start searching from index 2
+
+
+// concat
+let array1 = names.slice(0,4);
+let array2 = names.slice(4,7);
+array1 = array1.concat(array2); // concat two arrays
+console.log(array1);
+console.log(array1.join(' ')); // join array to string and pus space between
+console.log(array1.join('-')); // join array to string and pus - between

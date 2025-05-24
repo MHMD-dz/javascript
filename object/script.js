@@ -50,4 +50,15 @@ let user = {
     },
 }
 
+user.love = 'coding';
+user['hobby'] = 'gaming';
 console.log(user['phoneNumber']['firstNumber']);
+
+let x = this;
+
+let user2 = Object.create(user,{
+    newName: {value: 'newName'},
+});
+
+// assigning it is like inheriting the properties of the user object
+let user3 = Object.assign( user, user2, car);

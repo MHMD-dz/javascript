@@ -1,0 +1,92 @@
+body{
+    height: 150vh;
+    width: 150vw;
+    background-color: rgb(165, 165, 165);
+    
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+}
+
+.d1{
+    height: 1000px;
+    width: 1000px;
+    background-color: red;
+    margin: 5px;
+}
+.d2{
+    height: 1000px;
+    width: 1000px;
+    background-color: blue;
+    margin: 5px;
+}
+.d3{
+    height: 1000px;
+    width: 1000px;
+    background-color: green;
+    margin: 5px;
+}
+.d4{
+    height: 1000px;
+    width: 1000px;
+    background-color: blueviolet;
+    margin: 5px;
+}
+.d5{
+    height: 1000px;
+    width: 1000px;
+    background-color: gold;
+    margin: 5px;
+}
+.d6{
+    height: 1000px;
+    width: 1000px;
+    background-color: fuchsia;
+    margin: 5px;
+}
+.d7{
+    height: 1000px;
+    width: 1000px;
+    background-color: mediumseagreen;
+    margin: 5px;
+}
+
+.hi{
+    position: fixed;
+    top: 910px;
+    left: 1870px;
+    padding: 10px;
+    background-color: orangered;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3); 
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: larger;
+    width: 40px;
+    height: 40px;
+    display: none ;
+}
+.hello{
+    position: fixed;
+    top: 10px;
+    left: 1870px;
+    padding: 10px;
+    background-color: orangered;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3); 
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: larger;
+    width: 40px;
+    height: 40px;
+    display: none;
+}
+button:hover{
+    background-color: darkorange;
+    box-shadow: 0 6px 12px rgba(0,0,0,0.4);
+}
+
